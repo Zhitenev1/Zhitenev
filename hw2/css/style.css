@@ -1,0 +1,111 @@
+
+
+.container {
+    width: 1440px;
+    height: 677px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    background-image: url('../img/background.jpg');
+}
+
+.caption {
+    padding: 51px;
+}
+
+.pizza_caption {
+    font-family: 'Open Sans', sans-serif;
+    color:  red;
+    font-size: 4.5rem;
+    font-weight: 600;
+    line-height: 0.915;
+    text-align: center;
+}
+
+.pizza_caption2 {
+    font-family: 'Open Sans', sans-serif;
+    color:  #FCA943;
+    font-size: 4.5rem;
+    font-weight: 600;
+    line-height: 0.915;
+    text-align: center;
+}
+
+.caption_text {
+    font-family: 'OpenSans';
+    color:  #FCA943;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.pizza {
+    display: inline-block;
+    padding-top: 5rem;
+    /* color: #FCA943; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pizza_meat {
+    margin-left: 13rem;
+    background-image: url('../img/meat.jpg');
+    width: 262px;
+    height: 263px;
+    border: groove #FCA943 5px ;
+}
+
+.pizza_gavaji {
+    margin-left: 3rem;
+    background-image: url('../img/gavaji.jpg');
+    width: 262px;
+    height: 263px;
+    border: groove #FCA943 5px ;
+}
+
+.pizza_carbonara {
+   margin-left: 3rem;
+   background-image: url('../img/carbonara.jpg');
+   width: 262px;
+   height: 263px; 
+   border: groove #FCA943 5px ;
+}
+
+.pizza_4cheese {
+   margin-left: 3rem;
+   background-image: url('../img/4cheese.jpg');
+   width: 262px;
+   height: 263px; 
+   border: groove #FCA943 5px ;
+}
+
+.btn {
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+   margin-top: 14rem;
+   background-color: #fff;
+   display: inline-block;
+   color:  rgba(0, 0, 0, 0.8);
+   height: 6rem;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   font-size: 1.6rem;
+   padding-right: 5rem;
+   padding-left: 5rem;
+   border-radius: 30px;
+}
+
+
+h2 {
+   font-family: 'Open Sans', sans-serif;
+   color:  #fff;
+   font-size: 2rem;
+   font-weight: 600;
+   line-height: 1;
+   text-align: center;
+    }
+p {
+   text-align: center;
+   padding-top: 1rem;
+   color:  #fff;
+}
+
+
