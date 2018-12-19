@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    /* padding: 0 10px; */
+    margin: 0 auto;
+}
+
+p,h2 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500; 
+   color: #333;
+   font-size: 14px;
+   text-align: left;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 1.7;
+}
+/* h2 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500; 
+   font-size: 18px;
+   color: #333; 
+   text-align: left;
+} */
+
+img {
+	padding: 50px 0 55px 0;
+}
+
+.row {
+	margin: 20px 0 0 0;
+}
+
+.row:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.col {
+	border: solid #e1e1e1 1px;
+	padding: 0 20px;
+	width: 215px;
+	height: 410px;
+	float: left;
+	text-align: center;
+	margin-left: 20px;
+  position: relative;
+
+}
+
+.labels:before{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 8px 8px 8px 20px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .13);
+  color: #fff;
+}
+.labels.new:before{
+  content: "Новинка";
+  background-color: #00a7b2;
+}
+
+.labels.discount:before{
+  content: "Скидка 15%";
+  background-color: #ff6700;
+}
+
+.labels.best_price:before{
+  content: "Супер цена!";
+  background-color: #5a00ff;
+}
+
+.labels.discount:before{
+  content: "Скидка 15%";
+  background-color: #ff6700;
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 14px;
+  padding: 7px 12px;
+  cursor: pointer;
+  float: right;
+}
+
+.btn_default {
+  background-color: #742f00;
+  border: none;
+}
+
+.btn_default:hover {
+  background-color: #ff6700;
+}
+
+
+
+
+
